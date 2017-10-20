@@ -1,0 +1,72 @@
+body{
+  margin : 0;
+}
+header{
+  background-color: #2E112D;
+  padding: 2% 0;
+
+}
+
+header li{
+  padding-left: 3%;
+  text-transform: uppercase;
+}
+.list-no-style{
+  list-style: none;
+}
+.list-no-style a{
+  text-decoration: none;
+  color:white;
+}
+.list-no-style a:hover{
+  color:#8B8C81;
+}
+
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-wrap-reverse{
+  flex-wrap: wrap-reverse;
+}
+.half-size{
+  width: 60%;
+}
+.half-size-petit{
+  width: 30%;
+  margin-right: 5%;
+
+}
+.min-size-small{
+  min-width: 300px;
+}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+.prem{
+  background-image: url(images/photo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  height: 60vh;
+  margin-bottom: 5%;
+
+
+}
+.deux{
+  background-image: url(images/photo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh;
+  margin : 5% O;
+}
