@@ -40,7 +40,11 @@ header li{
 .min-size-small{
   min-width: 300px;
 }
-
+.flex-container2{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 .flex-container{
   display: flex;
   align-items: center;
