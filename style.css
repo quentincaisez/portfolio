@@ -3,7 +3,11 @@ body{
 }
 header{
   background-color: #2E112D;
-  padding: 2% 0;
+  padding: 1% 0;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+
 
 }
 
@@ -11,6 +15,7 @@ header li{
   padding-left: 3%;
   text-transform: uppercase;
 }
+
 .list-no-style{
   list-style: none;
 }
@@ -33,7 +38,7 @@ header li{
   width: 60%;
 }
 .half-size-petit{
-  width: 30%;
+  width: 20%;
   margin-right: 5%;
 
 }
@@ -50,11 +55,20 @@ header li{
   align-items: center;
   justify-content: center;
 }
+.flex-container3{
+  display: flex;
+  align-items: flex-start;
+  justify-content:space-around
+}
 .section-container{
   padding-left: 10%;
   padding-right: 10%;
-}
 
+}
+.titreh2{
+  text-align: center;
+  padding-bottom: 3%;
+}
 
 .prem{
   background-image: url(images/photo2.jpg);
@@ -62,7 +76,7 @@ header li{
   background-repeat: no-repeat;
   background-position: center ;
   height: 60vh;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
 
 
 }
@@ -72,5 +86,48 @@ header li{
   background-repeat: no-repeat;
   background-position: center;
   height: 40vh;
-  margin : 5% O;
+  margin-top:8%;
+  margin-bottom: 8%;
+}
+.lienicone{
+  color:#2E112D;
+
+}
+
+.lienicone:hover{
+  color:#B2A8A2;
+}
+.marginicon{
+  margin: 3% 10%;
+}
+.margintext{
+  margin: 1.5% 4%;
+}
+.boutonform{
+  background-color: black;
+  text-align: center;
+  color: white;
+  border : 2px solid black;
+  width: 115px;
+  border-radius: 50px;
+  padding: 12px ;
+}
+.boutoncenter{
+  margin : auto 0;
+}
+.footerbackground{
+  background-color: grey;
+  padding-top: 2%;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover{
+  color:black;
+}
+footer a:visited {
+  color: white;
+}
+small{
+  margin-top: 4%;
 }
